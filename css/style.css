@@ -1,0 +1,393 @@
+
+@media only screen and (max-width: 1536px) {
+    .bg-video, .bg-overflow {
+        width: 92%;
+        margin-left: 4rem;
+    }
+    .banner .home-page .banner-content .designer-image{
+        width: 29%;
+    }
+    .banner .home-page .banner-content .description .text{
+        width: 107%;
+    }
+    .banner .home-page #banner-content .designer-image{
+        width: 33%;
+    }
+    .banner .home-page #banner-content .social-icons .social_media_icons {
+        transform: translate(-8px, 0px);
+    }
+    .work-room-section .black_boxes_img .first-row {
+        height: 130px;
+    }
+    .work-room-section .black_boxes_img .second-row {
+        height: 140px;
+    }
+    .work-room-section .black_boxes_img .third-row {
+        height: 150px;
+    }
+.work-room-section #transforms .first-row .low-code-magic#full-screen {
+    transform: scale(2) translate(97px, 78px);
+    z-index: 9;
+    height: 183%;
+    width: 32rem;
+}
+    .work-room-section #transforms .first-row .goverment#full-screen {
+        transform: scale(2) translate(0px, 78px);
+        width: 31rem;
+        opacity: 1;
+    }
+    .work-room-section #transforms .first-row .dashboard#full-screen {
+        /* transform: translate(0, 0); */
+        transform: scale(2) translate(-111px, 77px);
+        z-index: 9;
+        height: 205%;
+        /* transform: translate(10px, 10px); */
+        width: 37rem;
+        /* opacity: 1; */
+    }
+    .work-room-section .black_boxes_img .second-row .mobile-app#full-screen {
+        transform: scale(2) translate(92px, 4px);
+        width: 37rem;
+        height: 153%;
+        background: #000;
+    }
+    .work-room-section .black_boxes_img .second-row .mobile-app .GAMS, .work-room-section .black_boxes_img .second-row .mobile-app .IPAS-1 {
+        width: 28%;
+    }
+    .work-room-section #transforms .second-row .mobile-app1#full-screen {
+        transform: scale(2) translate(-92px, 0px);
+        width: 31rem;
+        height: 137%;
+        background: #000;
+    }
+    .work-room-section #transforms .second-row .esds#full-screen {
+        width: 26rem;
+        height: 151%;
+        transform: scale(2) translate(0px, 4px);
+    }
+    .work-room-section #transforms .second-row .mobile-app1#full-screen {
+        transform: scale(2) translate(-95px, 0px);
+        width: 31rem;
+        height: 157%;
+        background: #000;
+    }
+    .work-room-section .black_boxes_img .second-row .mobile-app1 .IPAS-2, .work-room-section .black_boxes_img .second-row .mobile-app1 .VTM-scan {
+        width: 30%;
+    }
+    .work-room-section #transforms .third-row .superyatra#full-screen {
+        /* transform: translate(0px, 0px); */
+        transform: scale(2) translate(94px, -71px);
+        z-index: 9;
+        height: 159%;
+        /* transform: translate(10px, 10px); */
+        width: 31rem;
+        /* opacity: 1; */
+    }
+    .work-room-section #transforms .third-row .low-code-magic-2#full-screen {
+        transform: scale(1.9) translate(0px, -76px);
+        z-index: 9;
+        height: 167%;
+        width: 30rem;
+    }
+    .work-room-section #transforms .third-row .famrut#full-screen {
+        /* transform: translate(0px, 0px); */
+        transform: scale(2) translate(-95px, -73px);
+        /* z-index: 9; */
+        height: 160%;
+        /* transform: translate(10px, 10px); */
+        width: 31rem;
+        opacity: 1;
+    }   
+  }
+
+
+
+
+
+  @media only screen and (min-width: 1800px) {
+    .bg-video, .bg-overflow{
+        width: 79%;
+        margin-left: 11rem;
+    }
+    .footer .top-right-circle {
+        right: 10%;
+        top: 7%;
+    }
+    .work-room-section .black_boxes_img .first-row {
+        height: 170px;
+    }
+    .work-room-section .black_boxes_img .second-row {
+        height: 200px;
+    }
+    .work-room-section .black_boxes_img .third-row {
+        height: 170px;
+    }
+    .work-room-section #transforms .first-row .low-code-magic#full-screen {
+        transform: scale(2) translate(111px, 95px);
+        z-index: 9;
+        height: 179%;
+        width: 35rem;
+        width: 38rem;
+    }
+    .work-room-section #transforms .first-row .goverment#full-screen {
+        transform: scale(2) translate(0px, 89px);
+        width: 31rem;
+        opacity: 1;
+    }
+    .work-room-section #transforms .first-row .dashboard#full-screen {
+        /* transform: translate(0, 0); */
+        transform: scale(2) translate(-111px, 77px);
+        z-index: 9;
+        height: 205%;
+        /* transform: translate(10px, 10px); */
+        width: 37rem;
+        /* opacity: 1; */
+    }
+    .work-room-section .black_boxes_img .second-row .mobile-app#full-screen {
+        transform: scale(2) translate(110px, 0px);
+        width: 37rem;
+        height: 140%;
+        background: #000;
+    }
+    .work-room-section #transforms .second-row .mobile-app1#full-screen {
+        transform: scale(2) translate(-92px, 0px);
+        width: 31rem;
+        height: 137%;
+        background: #000;
+    }
+    .work-room-section #transforms .second-row .esds#full-screen {
+        width: 31rem;
+    }
+    .work-room-section #transforms .second-row .mobile-app1#full-screen {
+        transform: scale(2) translate(-110px, 0px);
+        width: 37rem;
+        height: 137%;
+        background: #000;
+    }
+    .work-room-section #transforms .third-row .superyatra#full-screen {
+        /* transform: translate(0px, 0px); */
+        transform: scale(2) translate(111px, -98px);
+        z-index: 9;
+        height: 179%;
+        /* transform: translate(10px, 10px); */
+        width: 37rem;
+        /* opacity: 1; */
+    }
+    .work-room-section #transforms .third-row .low-code-magic-2#full-screen {
+        transform: scale(1.9) translate(0px, -104px);
+        z-index: 9;
+        height: 187%;
+        width: 35rem;
+    }
+    .work-room-section #transforms .third-row .famrut#full-screen {
+        /* transform: translate(0px, 0px); */
+        transform: scale(2) translate(-111px, -99px);
+        /* z-index: 9; */
+        height: 178%;
+        /* transform: translate(10px, 10px); */
+        width: 36rem;
+        opacity: 1;
+    }    
+  }
+
+
+  @media only screen and (min-width: 1400px) {
+    .bg-video, .bg-overflow{
+        width: 87%;
+        margin-left: 10rem;
+    }
+  }
+
+  @media only screen and (min-width: 1500px) {
+    .bg-video, .bg-overflow{
+        width: 93%;
+        margin-left: 3rem;
+    }
+    .banner .home-page .banner-content .designer-image {
+        /* width: 37%; */
+        /* height: 600px; */
+        width: 30%;
+        /* right: -6%; */
+        position: relative;
+        transition: all 2s;
+        /* transform: translate(0px, 10px); */
+        transform: translate(364px, 50px) scale(1.1);
+        background: url(../img/designer.png);
+        background-size: cover;
+    }
+    .footer .top-right-circle {
+        right: 2%;
+    }
+    .steven-jobs {
+        font-size: 23px;
+    }
+    .work-room-section .black_boxes_img .first-row {
+        height: 130px;
+    }
+    .work-room-section .black_boxes_img .second-row {
+        height: 150px;
+    }
+    .work-room-section .black_boxes_img .third-row {
+        height: 130px;
+    }
+    .work-room-section #transforms .first-row .low-code-magic#full-screen {
+        /* transform: translate(0, 0); */
+        transform: scale(2) translate(93px, 70px);
+        z-index: 9;
+        height: 186%;
+        /* transform: translate(10px, 10px); */
+        /* width: 65rem; */
+        width: 31rem;
+    }
+    .work-room-section #transforms .first-row .goverment#full-screen {
+        
+        transform: scale(2) translate(0px, 71px);
+        width: 26rem;
+        opacity: 1;
+    }
+    .work-room-section #transforms .first-row .dashboard#full-screen {
+        /* transform: translate(0, 0); */
+        transform: scale(2) translate(-93px, 61px);
+        z-index: 9;
+        height: 205%;
+        /* transform: translate(10px, 10px); */
+        width: 31rem;
+        /* opacity: 1; */
+    }
+    .work-room-section .black_boxes_img .second-row .mobile-app#full-screen {
+        transform: scale(2) translate(94px, 0px);
+        width: 32rem;
+        height: 140%;
+        background: #000;
+    }
+    .work-room-section #transforms .second-row .mobile-app1#full-screen {
+        transform: scale(2) translate(-92px, 0px);
+        width: 31rem;
+        height: 137%;
+        background: #000;
+    }
+    .work-room-section #transforms .second-row .esds#full-screen {
+    }
+    .work-room-section #transforms .third-row .superyatra#full-screen {
+        /* transform: translate(0px, 0px); */
+        transform: scale(2) translate(93px, -73px);
+        z-index: 9;
+        height: 189%;
+        /* transform: translate(10px, 10px); */
+        width: 31rem;
+        /* opacity: 1; */
+    }
+
+.work-room-section #transforms .third-row .low-code-magic-2#full-screen {
+   
+    transform: scale(1.9) translate(0px, -80px);
+    z-index: 9;
+    height: 194%;
+    
+    width: 30rem;
+}
+.work-room-section #transforms .third-row .famrut#full-screen {
+    /* transform: translate(0px, 0px); */
+    transform: scale(2) translate(-93px, -76px);
+    /* z-index: 9; */
+    height: 184%;
+    /* transform: translate(10px, 10px); */
+    width: 31rem;
+    opacity: 1;
+}
+}
+  @media only screen and (min-width: 1600px) {
+    .bg-video, .bg-overflow {
+        width: 86%;
+        margin-left: 6rem;
+    }
+    .footer .top-right-circle {
+        right: 8%;
+        top: 7%;
+    }
+    .steven-jobs {
+        left: 265px;
+    }
+    .work-room-section .black_boxes_img .first-row {
+        height: 150px;
+    }
+    .work-room-section .black_boxes_img .second-row {
+        height: 180px;
+    }
+    .work-room-section .black_boxes_img .third-row {
+        height: 150px;
+    }
+    .work-room-section #transforms .first-row .low-code-magic#full-screen {
+        transform: scale(2) translate(96px, 86px);
+        z-index: 9;
+        height: 177%;
+        width: 33rem;
+    }
+    .work-room-section #transforms .first-row .goverment#full-screen {
+        
+        transform: scale(2) translate(0px, 86px);
+        width: 29rem;
+        opacity: 1;
+    }
+    .work-room-section #transforms .first-row .dashboard#full-screen {
+        /* transform: translate(0, 0); */
+        transform: scale(2) translate(-102px, 76px);
+        z-index: 9;
+        height: 205%;
+        /* transform: translate(10px, 10px); */
+        width: 35rem;
+        /* opacity: 1; */
+    }
+    .work-room-section .black_boxes_img .second-row .mobile-app#full-screen {
+        transform: scale(2) translate(101px, 0px);
+        width: 36rem;
+        height: 140%;
+        background: #000;
+    }
+    .work-room-section .black_boxes_img .second-row .mobile-app .GAMS, .work-room-section .black_boxes_img .second-row .mobile-app .IPAS-1{
+        width: 31%;
+    }
+    .work-room-section #transforms .second-row .mobile-app1#full-screen {
+        transform: scale(2) translate(-92px, 0px);
+        width: 31rem;
+        height: 137%;
+        background: #000;
+    }
+    .work-room-section #transforms .second-row .esds#full-screen {
+        width: 28rem;
+    }
+    .work-room-section #transforms .second-row .mobile-app1#full-screen {
+        transform: scale(2) translate(-104px, 0px);
+        width: 36rem;
+        height: 137%;
+        background: #000;
+    }
+    .work-room-section .black_boxes_img .second-row .mobile-app1 .IPAS-2, .work-room-section .black_boxes_img .second-row .mobile-app1 .VTM-scan {
+        width: 31%;
+    }
+    .work-room-section #transforms .third-row .superyatra#full-screen {
+        /* transform: translate(0px, 0px); */
+        transform: scale(2) translate(103px, -88px);
+        z-index: 9;
+        height: 189%;
+        /* transform: translate(10px, 10px); */
+        width: 35rem;
+        /* opacity: 1; */
+    }
+    .work-room-section #transforms .third-row .low-code-magic-2#full-screen {
+        transform: scale(1.9) translate(0px, -93px);
+        z-index: 9;
+        height: 194%;
+        width: 32rem;
+    }
+    .work-room-section #transforms .third-row .famrut#full-screen {
+        /* transform: translate(0px, 0px); */
+        transform: scale(2) translate(-101px, -89px);
+        /* z-index: 9; */
+        height: 184%;
+        /* transform: translate(10px, 10px); */
+        width: 34rem;
+        opacity: 1;
+    }
+  }
+ 
