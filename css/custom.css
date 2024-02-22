@@ -99,6 +99,7 @@ overflow-y: hidden;
 font-size: 11px;
     color: #fff;
     margin-left: 9px;
+    margin-right: 9px;
     position: relative;
 }
 
@@ -357,7 +358,7 @@ width: 100%;
 } 
 .banner .home-page .banner-content .description .text p:nth-child(3) span {
         font-size: 20px;
-        background: linear-gradient(to right,rgba(89, 255, 156, 1),rgba(0, 236, 251, 1));
+        background: linear-gradient(to right,rgb(0 245 251),rgb(1 137 215));
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
     }
@@ -468,7 +469,7 @@ box-shadow: 0px 2px 30px 0px rgba(109, 203, 255, 0.20);
     padding: 100px 0 10px 0;
 }
 .footer_bg {
-    padding: 1rem;
+    padding: 2rem;
     /* margin: 50px 0; */
     position: relative;
     background: rgba( 255, 255, 255, 0.15 );
@@ -1268,6 +1269,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 
   @media only screen and (max-width: 1920px) {
+
     .banner header .info .location {
         font-size: 15px;
     }
@@ -1295,8 +1297,8 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
         margin-bottom: 3rem;
     }
     .banner header .info .location-gif img{
-        width: 47px;
-        height: 47px;
+        width: 20px;
+        height: 28px;
     }
     .banner .home-page .banner-content .description .text p:nth-child(2) span {
         font-size: 25px;
@@ -1317,7 +1319,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     }
     .banner .home-page .banner-content .description .buttons .lets_talk {
         font-size: 20px;
-        padding: 15px 20px;
+        padding: 10px 20px;
     }
     .banner .home-page .banner-content .description .buttons .know_more {
         font-size: 20px;
@@ -1368,12 +1370,91 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     .banner .home-page .banner-content .designer-image .right-corner-btn {
         bottom: 60px;
     }
-    .banner .home-page .banner-content .navbar {
+    .banner .home-page .banner-content .nav {
         width: 28rem;
     }
-.banner .home-page .banner-content .navbar a {
-    font-size: 22px;
-}
+    #item{
+        width:105px;
+        height:40px;
+        list-style-type:none;
+        display:inline-block;
+        padding:15px 20px;
+        letter-spacing:3px;
+        color:white;
+        background:linear-gradient(45deg,#333333);
+        transition:500ms;
+        text-transform:uppercase;
+        position:relative;
+        z-index:3;
+        overflow:hidden;
+      }
+      #item1{
+        width:90px;
+        height:40px;
+        list-style-type:none;
+        display:inline-block;
+        padding:15px 20px;
+        letter-spacing:3px;
+        color:white;
+        background:linear-gradient(45deg,#333333);
+        transition:500ms;
+        text-transform:uppercase;
+        position:relative;
+        z-index:3;
+        overflow:hidden;
+      }
+      .inner_item{
+       background: linear-gradient(rgba(0, 255, 255, 1), rgba(0, 107, 205, 1));
+        width:90%;
+        height:100%;
+        position:absolute;
+        top:103%;
+        left:50%;
+        transform:translateX(-50%);
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        transition:300ms;
+        border-radius:40px;
+      }
+      
+      .inner_item:before{
+        content:'Home';
+        width:100%;
+        height:100%;
+        position:absolute;
+        top:-100%;
+        left:0%;
+        font-size: 14px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        color:#fff;
+      }
+      #item:hover .inner_item, #item1:hover .inner_item{
+        top:0%;
+      }
+      
+      #item:hover .inner_item i, #item1:hover .inner_item i{
+        opacity:1;
+      }
+      
+      .inner_item i{
+        transition:400ms;
+        opacity:0;
+        font-size:1.2rem;
+        color:#fff
+      }
+      
+      
+      
+      
+      .inner_item_1:before{content:'About';}
+      .inner_item_2:before{content:'Work';}
+      .inner_item_3:before{content:'Resume';}
+      .inner_item_4:before{content:'Contact';}
+      
+
 .banner .home-page .banner-content .designer-div {
     position: absolute;
     top: 28rem;
@@ -1576,8 +1657,8 @@ transition: all 2s;
         margin-bottom: 3rem;
     }
     .banner header .info .location-gif img{
-        width: 47px;
-        height: 47px;
+        width: 16px;
+        height: 22px;
     }
     .banner .home-page .banner-content .description .text p:nth-child(2) span {
         font-size: 20px;
@@ -1867,8 +1948,8 @@ transition: all 2s;
         margin-bottom: 2rem;
     }
     .banner header .info .location-gif img{
-        width: 47px;
-        height: 47px;
+        width: 16px;
+        height: 22px;
     }
     .banner .home-page .banner-content .description .text p:nth-child(2) span {
         font-size: 20px;
@@ -2157,8 +2238,8 @@ transition: all 2s;
         margin-bottom: 2rem;
     }
     .banner header .info .location-gif img{
-        width: 47px;
-        height: 47px;
+        width: 16px;
+        height: 21px;
     }
     .banner .home-page .banner-content .description .text p:nth-child(2) span {
         font-size: 18px;
@@ -2446,6 +2527,111 @@ transition: all 2s;
     .banner header .info .available::before {
 
     }
+    .banner .home-page .banner-content .nav{
+        background: linear-gradient(rgba(192, 192, 192, 0.1) ,rgba(149, 149, 149, 0.1));
+        width: 23rem;
+        position: absolute;
+        left: 38%;
+        transition: left 2s;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        bottom: 6%;
+        border-radius: 5px;
+        padding: 8px 15px;
+    }
+    
+    .banner .home-page .banner-content .nav.sticky {
+        position: fixed;
+        top: 0;
+        z-index: 15;
+        /* left: 40%; */
+        bottom: 95%;
+        transition: none;
+    }
+      
+      #item{
+        width:75px;
+        height:20px;
+        list-style-type:none;
+        display:inline-block;
+        padding:15px 20px;
+        letter-spacing:3px;
+        color:white;
+        background:linear-gradient(45deg,#333333);
+        transition:500ms;
+        text-transform:uppercase;
+        position:relative;
+        z-index:3;
+        overflow:hidden;
+      }
+      #item1{
+        width:65px;
+        height:20px;
+        list-style-type:none;
+        display:inline-block;
+        padding:15px 20px;
+        letter-spacing:3px;
+        color:white;
+        background:linear-gradient(45deg,#333333);
+        transition:500ms;
+        text-transform:uppercase;
+        position:relative;
+        z-index:3;
+        overflow:hidden;
+      }
+      .inner_item{
+       background: linear-gradient(rgba(0, 255, 255, 1), rgba(0, 107, 205, 1));
+        width:90%;
+        height:100%;
+        position:absolute;
+        top:103%;
+        left:50%;
+        transform:translateX(-50%);
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        transition:300ms;
+        border-radius:40px;
+      }
+      
+      .inner_item:before{
+        content:'Home';
+        width:100%;
+        height:100%;
+        position:absolute;
+        top:-100%;
+        left:0%;
+        font-size: 10px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        color:#fff;
+      }
+      
+      #item:hover .inner_item, #item1:hover .inner_item{
+        top:0%;
+      }
+      
+      #item:hover .inner_item i, #item1:hover .inner_item i{
+        opacity:1;
+      }
+      
+      .inner_item i{
+        transition:400ms;
+        opacity:0;
+        font-size:1.2rem;
+        color:#fff
+      }
+      
+      
+      
+      
+      .inner_item_1:before{content:'About';}
+      .inner_item_2:before{content:'Work';}
+      .inner_item_3:before{content:'Resume';}
+      .inner_item_4:before{content:'Contact';}
+      
     .bg-video {
         padding: 0 4rem;
     }
@@ -2461,8 +2647,8 @@ transition: all 2s;
         margin-bottom: 2rem;
     }
     .banner header .info .location-gif img{
-        width: 47px;
-        height: 47px;
+        width: 16px;
+        height: 22px;
     }
     .banner .home-page .banner-content .description .text p:nth-child(2) span {
         font-size: 18px;
